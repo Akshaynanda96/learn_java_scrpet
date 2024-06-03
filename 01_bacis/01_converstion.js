@@ -8,13 +8,13 @@ let name = 'akshay'
 
 let rollnumber = 33
 let strrollnum = String(rollnumber)
-console.log(typeof(strrollnum));
+// console.log(typeof(strrollnum));
 let boolrollnum = Boolean(rollnumber)
-console.log(typeof(boolrollnum));
+// console.log(typeof(boolrollnum));
 let Integerrollnum = Number(rollnumber)
-console.log(typeof(Integerrollnum));
+// console.log(typeof(Integerrollnum));
 let objrollnum = Object(rollnumber)
-console.log(typeof(objrollnum));
+// console.log(typeof(objrollnum));
 
 // this the type datatype cast
 // if you want to see type of any value use typeof
@@ -25,3 +25,24 @@ console.log(typeof(objrollnum));
 // typeof Number
 // typeof Booline 
 // typeof object
+
+
+// let x = 3;
+// const y = x++;
+
+// console.log(`x:${x}, y:${y}`);
+// // Expected output: "x:4, y:3"
+
+// let a = 3;
+// const b = ++a;
+
+// console.log(`a:${a}, b:${b}`);
+// // Expected output: "a:4, b:4"
+
+let x = 3;
+let y = x++;
+console.log(x, y);
+let a = 4;
+let b = ++a;
+console.log(a, b);
+
