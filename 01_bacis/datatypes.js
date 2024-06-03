@@ -12,7 +12,15 @@ strinig , Number , booline , symbool , bigint, undifined , None
 
 object , funtion , Array
 
+object = { name:akshay,
+            age:18
+}
 
+function addcontory (){
+    
+}
+
+Array = []
 
 // 1) Primitive Datatypes
 //        Number => number
